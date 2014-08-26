@@ -2,7 +2,7 @@ stuff
 =====
 XML uitlezen
 =====
-/*Document doc = readDocument("plattegrond.xml");
+	/*Document doc = readDocument("plattegrond.xml");
 		XPath xp = XPathFactory.newInstance().newXPath();
 		String queryVan = "/plattegrond/wegen/van";
 		Graph<String> graph = new Graph<String>();
@@ -54,7 +54,7 @@ XML uitlezen
 ====
 Depth First Search
 ====
-/*public static void DPS(String zoek, String currentNode,
+	/*public static void DPS(String zoek, String currentNode,
 			Set<String> visited, Graph<String> graph) {
 			visited.add(currentNode);
 
@@ -73,7 +73,7 @@ Depth First Search
 ====
 Breadth First Search
 ====
-public void bfs()
+	public void bfs()
 	{
 		// BFS uses Queue data structure
 		Queue queue = new LinkedList();
@@ -95,7 +95,7 @@ public void bfs()
 ====
 Tree
 ====
-public int nrOfLeaves()
+	public int nrOfLeaves()
 	{
 		if( isEmpty() )
 		    return 0;
